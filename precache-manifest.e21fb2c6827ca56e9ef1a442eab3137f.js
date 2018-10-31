@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/polaroid-milk.00be0e5b.png"
   },
   {
-    "revision": "7863d9ea1c5c8c9b1121",
-    "url": "/static/css/main.8080be04.chunk.css"
+    "revision": "68fdf181c1ade67ffbca",
+    "url": "/static/css/main.8d7aaa09.chunk.css"
   },
   {
     "revision": "56a5cb74a2dcd959f10851e7cee3f375",
     "url": "/static/media/resume.56a5cb74.pdf"
   },
   {
-    "revision": "7d958343da4bb99d3dab",
-    "url": "/static/js/1.7d958343.chunk.js"
+    "revision": "4e6b0ab2cffbc84151cd",
+    "url": "/static/js/1.4e6b0ab2.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/dev-collablab.f537e8c5.png"
   },
   {
-    "revision": "7863d9ea1c5c8c9b1121",
-    "url": "/static/js/main.7863d9ea.chunk.js"
+    "revision": "68fdf181c1ade67ffbca",
+    "url": "/static/js/main.68fdf181.chunk.js"
   },
   {
     "revision": "8cf28f47343f732f53e445330155bdfc",
@@ -104,11 +104,11 @@ self.__precacheManifest = [
     "url": "/static/media/profile.68ba340e.png"
   },
   {
-    "revision": "7d958343da4bb99d3dab",
+    "revision": "4e6b0ab2cffbc84151cd",
     "url": "/static/css/1.7e2176ba.chunk.css"
   },
   {
-    "revision": "05531c4a2fa3671139c5e9c95aea3379",
+    "revision": "06b617a065acbdf04349946d611e6e15",
     "url": "/index.html"
   }
 ];
