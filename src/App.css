@@ -1,0 +1,29 @@
+/*
+	Sea foam: #87c3b9
+	Dark sea foam: #3e7c72
+	Light gray: #eeeeee
+	Dark gray: #686868
+	Mauve: #c3878c
+  Background dark: #282c34
+*/
+
+.App {
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.main-section {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-header {
+  font-size: calc(32px + 2vmin);
+  text-align: center;
+  padding-top: 64px;
+}

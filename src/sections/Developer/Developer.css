@@ -1,0 +1,31 @@
+/*
+	Sea foam: #87c3b9
+	Dark sea foam: #3e7c72
+	Light gray: #eeeeee
+	Dark gray: #686868
+	Mauve: #c3878c
+  Background dark: #282c34
+*/
+
+.Developer {
+  background-color: #87c3b9;
+  color: white;
+  padding-bottom: 36px;
+}
+
+.Dev-body {
+  align-items: center;
+  text-align: center;
+}
+
+.Dev-mockup-phone {
+  /* height: 70vmin; */
+  height: 70vmin;
+  margin: 2vw;
+}
+
+.Dev-mockup-desktop {
+  /* width: 40vw; */
+  height: 50vmin;
+  margin: 2vw;
+}

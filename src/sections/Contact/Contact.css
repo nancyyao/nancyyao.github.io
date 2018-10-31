@@ -1,0 +1,44 @@
+/*
+	Sea foam: #87c3b9
+	Dark sea foam: #3e7c72
+	Light gray: #eeeeee
+	Dark gray: #686868
+	Mauve: #c3878c
+  Background dark: #282c34
+*/
+
+.Contact {
+  background-color: #87c3b9;
+  color: white;
+}
+
+.Contact-body {
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 700px;
+}
+.copyright-section {
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.about-me-header {
+  text-align: left;
+  font-size: calc(24px + 2vmin);
+}
+
+.about-me-body {
+  text-align: left;
+  font-size: calc(2px + 2vmin);
+}
+
+.about-me-image {
+  max-width:100%;
+  max-height:100%;
+  /* max-width:300px; */
+}
+
+.social {
+  padding: 8px;
+}
