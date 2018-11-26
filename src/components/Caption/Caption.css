@@ -1,0 +1,43 @@
+.captionHeader {
+  font-size: calc(6px + 1vmin);
+  line-height: 1em;
+  font-weight: bolder;
+}
+
+.captionText {
+  font-size: calc(6px + 1vmin);
+  line-height: 1.4em;
+}
+
+.caption-left, .caption-right {
+  max-width: 320px;
+  text-align: left;
+  padding: 12px;
+  position: relative;
+  /* bottom: 12px; */
+}
+
+.caption-left {
+  /* right: 12px; */
+  float: right;
+}
+
+.caption-right {
+  /* left: 12px; */
+  float: left;
+}
+
+.caption-tight {
+  padding-top: 12px;
+  max-width: 250px;
+  text-align: left;
+  position: relative;
+}
+
+.caption-bottom {
+  bottom: 12px;
+}
+
+.caption-top {
+  top: 12px;
+}

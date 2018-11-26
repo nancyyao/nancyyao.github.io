@@ -41,7 +41,7 @@ class Contact extends Component {
 
         </div>
 
-        <div class="copyright-section">
+        <div className="copyright-section">
           <p className="copyright">&copy; 2018 Nancy Yao</p>
         </div>
       </div>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+
 import milk from './images/polaroid-milk.png';
 import foldable from './images/polaroid-foldable.png';
 import makergirl from './images/polaroid-makergirl.png';
@@ -15,13 +17,13 @@ class Design extends Component {
         </header>
         <div className="Design-body">
           <div>
-            <a><img src={milk} className="Design-polaroid" alt="milk" /></a>
-            <a><img src={foldable} className="Design-polaroid" alt="foldable" /></a>
-            <a><img src={makergirl} className="Design-polaroid" alt="makergirl" /></a>
+            <Link to="/design-milk"><img src={milk} className="Design-polaroid" alt="milk" /></Link>
+            <Link to="/design-foldable"><img src={foldable} className="Design-polaroid" alt="foldable" /></Link>
+            <Link to="/design-makergirl"><img src={makergirl} className="Design-polaroid" alt="makergirl" /></Link>
           </div>
           <div>
-            <a><img src={flexibrella} className="Design-polaroid" alt="flexibrella" /></a>
-            <a><img src={blank} className="Design-polaroid" alt="mayfest" /></a>
+            <Link to="/design-flexibrella"><img src={flexibrella} className="Design-polaroid" alt="flexibrella" /></Link>
+            <Link to="/design-mayfest"><img src={blank} className="Design-polaroid" alt="mayfest" /></Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+
 import instagram from './images/dev-insta.png';
 import insync from './images/dev-insync.png';
 import strugglebus from './images/dev-strugglebus.png';
@@ -16,13 +18,13 @@ class Developer extends Component {
           <p>i'm a developer...</p>
         </header>
         <div className="Dev-body">
-          <a><img src={instagram} className="Dev-mockup-phone" alt="instagram" /></a>
-          <a><img src={insync} className="Dev-mockup-phone" alt="insync" /></a>
-          <a><img src={strugglebus} className="Dev-mockup-phone" alt="strugglebus" /></a>
+          <Link to="/dev-instagram"><img src={instagram} className="Dev-mockup-phone" alt="instagram" /></Link>
+          <Link to="/dev-insync"><img src={insync} className="Dev-mockup-phone" alt="insync" /></Link>
+          <Link to="/dev-strugglebus"><img src={strugglebus} className="Dev-mockup-phone" alt="strugglebus" /></Link>
         </div>
         <div className="Dev-body">
-          <a><img src={buildher} className="Dev-mockup-desktop" alt="buildher" /></a>
-          <a><img src={collablab} className="Dev-mockup-desktop" alt="collablab" /></a>
+          <Link to="/dev-buildher"><img src={buildher} className="Dev-mockup-desktop" alt="buildher" /></Link>
+          <Link to="/dev-collablab"><img src={collablab} className="Dev-mockup-desktop" alt="collablab" /></Link>
         </div>
       </div>
     );

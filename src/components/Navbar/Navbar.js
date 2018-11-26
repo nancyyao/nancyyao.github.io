@@ -14,31 +14,31 @@ class NavBar extends Component {
           <Nav pullLeft style={{display:"flex", flexDirection:"row"}}>
             <NavItem>
               <a onClick={function()
-                { document.getElementById("home-id").scrollIntoView(); }
+                { document.getElementById("landing-id").scrollIntoView(); }
               }><p className="Navbar-item">nancy yao</p></a>
             </NavItem>
           </Nav>
 
           <Nav pullRight style={{display:"flex", flexDirection:"row"}}>
             <NavItem>
-              <a onClick={function()
+              <p onClick={function()
                 { document.getElementById("developer-id").scrollIntoView(); }
-              }><p className="Navbar-item">tech</p></a>
+              } className="Navbar-item">tech</p>
             </NavItem>
             <NavItem>
-              <a onClick={function()
+              <p onClick={function()
                 { document.getElementById("design-id").scrollIntoView(); }
-              }><p className="Navbar-item">design</p></a>
+              } className="Navbar-item">design</p>
             </NavItem>
             <NavItem>
-              <a onClick={function()
+              <p onClick={function()
                 { document.getElementById("sketches-id").scrollIntoView(); }
-              }><p className="Navbar-item">sketches</p></a>
+              } className="Navbar-item">sketches</p>
             </NavItem>
             <NavItem>
-              <a onClick={function()
+              <p onClick={function()
                 { document.getElementById("contact-id").scrollIntoView(); }
-              }><p className="Navbar-item">contact</p></a>
+              } className="Navbar-item">contact</p>
             </NavItem>
           </Nav>
         </div>
@@ -48,3 +48,8 @@ class NavBar extends Component {
 }
 
 export default NavBar
+
+
+// <a onClick={function()
+//   { document.getElementById("design-id").scrollIntoView(); }
+// }><p className="Navbar-item">design</p></a>
