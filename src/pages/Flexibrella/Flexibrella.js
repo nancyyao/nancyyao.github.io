@@ -40,7 +40,7 @@ class Flexibrella extends Component {
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
               <DetailHeader name="Flexibrella" role="Designer" date="June - Aug 2016"
-              tagline="An accessible tool for rainy days."/>
+              tagline="Designing an accessible tool to make it easier for wheelchair users to go out on rainy days."/>
             </Row>
 
             <Row className="detail-row">

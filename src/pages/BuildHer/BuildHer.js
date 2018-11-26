@@ -42,7 +42,7 @@ class BuildHer extends Component {
          <Row className="detail-row">
            <DetailHeader name="BuildHer" role="Organizer, Tech Team Developer"
            date="Sep 2016 - April 2018"
-           tagline="Chicago's first student-run women's hackathon."/>
+           tagline="Organizing Chicago's first student-run women's hackathon."/>
          </Row>
 
          <Row className="detail-row">

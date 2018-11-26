@@ -36,7 +36,8 @@ class StruggleBus extends Component {
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
               <DetailHeader name="StruggleBus" role="Developer" date="Apr - Jun 2018"
-               tagline="An app that helps college students find friends to take classes with."/>
+               tagline="Developing an app that makes the class registration process easier by helping college students
+               find friends to take classes with."/>
             </Row>
 
             <Row className="detail-row">

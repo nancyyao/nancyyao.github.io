@@ -38,7 +38,7 @@ class CollabLab extends Component {
         <Row className="detail-row">
           <DetailHeader name="CollabLab" role="Research Assistant"
           date="Oct 2016 - Jun 2018"
-          tagline="Using eye-tracking visualizations to augment collaboration and learning."/>
+          tagline="Using eye-tracking visualizations to design systems that augment remote collaboration and learning."/>
         </Row>
 
          <Row className="detail-row">

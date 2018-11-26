@@ -34,7 +34,8 @@ class InSync extends Component {
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
               <DetailHeader name="InSync" role="Developer" date="Jun - Aug 2016"
-              tagline="Bringing collaboration and fun to your music streaming experience."/>
+              tagline="Developing an app to create a fun, collaborative music streaming experience by
+              allowing friends to share control of the music being played."/>
             </Row>
 
              <Row className="detail-row">

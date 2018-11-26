@@ -37,8 +37,8 @@ class MakerGirl extends Component {
             <Row className="detail-row">
               <DetailHeader name="MakerGirl" role="Co-Founder and Co-Director, Northwestern Academy"
                date="Jan 2018 - Present"
-               tagline="A non-profit that has educated over 3,000 girls in STEM through 3D printing and
-               other technologies."/>
+               tagline="Starting a chapter of a non-profit that has educated over 3,000 girls in STEM through
+               3D printing and other technologies."/>
             </Row>
 
             <Row className="detail-row">
