@@ -1,0 +1,45 @@
+/*
+	Sea foam: #87c3b9
+	Dark sea foam: #3e7c72
+	Light gray: #eeeeee
+	Dark gray: #686868
+	Mauve: #c3878c
+  Background dark: #282c34
+*/
+
+.Landing {
+  background-color: white;
+  color: #87c3b9;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.Landing-tagline {
+  font-size: calc(28px + 2vmin);
+}
+
+.nav-icon {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 12vmin;
+  margin: 12px;
+}
+
+/* a:link, a:visited {
+	color: #3e7c72;
+	font-weight: 400;
+	text-decoration: none;
+}
+a:hover, a:active {
+  color: #c3878c;
+	text-decoration: none;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

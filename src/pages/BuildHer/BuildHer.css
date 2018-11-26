@@ -1,0 +1,23 @@
+.bh-logo {
+  width:100%;
+  height: auto;
+  padding: 12px;
+}
+
+.bh-app-col-1, .bh-app-col-2, .bh-app-col-3, .bh-app-col-4 {
+  max-width: 250px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.bh-app-col-2 {
+  padding-top: 32px;
+}
+
+.bh-app-col-3 {
+  padding-top: 64px;
+}
+
+.bh-app-col-4 {
+  padding-top: 96px;
+}
