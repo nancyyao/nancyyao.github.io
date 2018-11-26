@@ -35,7 +35,7 @@ class Milk extends Component {
   render() {
     return (
       <div id={this.props.id} className="detail-page">
-        <BackButton />
+        <StickyContainer>
 
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
@@ -98,7 +98,12 @@ class Milk extends Component {
                </Col>
             </Row>
           </Grid>
-
+          <Sticky>
+            {({ style }) => (
+              <NavBar style={style} />
+            )}
+          </Sticky>
+        </StickyContainer>
       </div>
     );
   }

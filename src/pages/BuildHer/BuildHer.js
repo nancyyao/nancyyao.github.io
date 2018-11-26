@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
+import NavBar from '../../components/Navbar/Navbar';
+import { StickyContainer, Sticky } from 'react-sticky';
 import DetailHeader from '../../components/DetailHeader/DetailHeader';
 import Caption from '../../components/Caption/Caption';
 import BackButton from '../../components/BackButton/BackButton';
@@ -34,7 +36,7 @@ class BuildHer extends Component {
   render() {
     return (
       <div id={this.props.id} className="detail-page">
-        <BackButton />
+      <StickyContainer>
 
        <Grid fluid style={styles.grid}>
          <Row className="detail-row">
@@ -131,6 +133,12 @@ class BuildHer extends Component {
          </Row>
        </Grid>
 
+       <Sticky>
+         {({ style }) => (
+           <NavBar style={style} />
+         )}
+       </Sticky>
+      </StickyContainer>
       </div>
     )
   }

@@ -35,7 +35,7 @@ class Flexibrella extends Component {
   render() {
     return (
       <div id={this.props.id} className="detail-page">
-        <BackButton />
+        <StickyContainer>
 
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
@@ -61,8 +61,6 @@ class Flexibrella extends Component {
              </Col>
             </Row>
 
-
-
             <Row className="detail-row">
               <Col className="flex-col-1" xs={4} style={styles.col}>
                 <img className="detail-image-left detail-image-tight" src={FlexSketch1}/>
@@ -83,6 +81,12 @@ class Flexibrella extends Component {
             </Row>
           </Grid>
 
+          <Sticky>
+            {({ style }) => (
+              <NavBar style={style} />
+            )}
+          </Sticky>
+        </StickyContainer>
       </div>
     );
   }

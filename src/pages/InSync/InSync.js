@@ -30,8 +30,7 @@ class InSync extends Component {
   render() {
     return (
       <div id={this.props.id} className="detail-page">
-        <BackButton />
-
+      <StickyContainer>
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
               <DetailHeader name="InSync" role="Developer" date="Jun - Aug 2016"
@@ -79,6 +78,12 @@ class InSync extends Component {
             </Row>
           </Grid>
 
+          <Sticky>
+            {({ style }) => (
+              <NavBar style={style} />
+            )}
+          </Sticky>
+         </StickyContainer>
       </div>
     );
   }

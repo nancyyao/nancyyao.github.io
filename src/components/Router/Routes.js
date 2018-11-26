@@ -15,7 +15,10 @@ import Mayfest from '../../pages/Mayfest/Mayfest.js';
 const Routes = () => (
     <div>
       <Route exact path="/" component={Home} />
+      <Route exact path="/dev" component={Home} />
       <Route exact path="/design" component={Home} />
+      <Route exact path="/sketches" component={Home} />
+      <Route exact path="/contact" component={Home} />
       <Route exact path="/dev-instagram" component={Instagram} />
       <Route exact path="/dev-insync" component={InSync} />
       <Route exact path="/dev-strugglebus" component={StruggleBus} />

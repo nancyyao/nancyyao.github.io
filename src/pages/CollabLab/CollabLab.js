@@ -5,6 +5,8 @@ import Caption from '../../components/Caption/Caption';
 import BackButton from '../../components/BackButton/BackButton';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Bootstrap, Grid, Row, Col, Image } from 'react-bootstrap';
+import { StickyContainer, Sticky } from 'react-sticky';
+import NavBar from '../../components/Navbar/Navbar';
 
 import CLSetup from './images/collablab_setup.jpeg';
 import CLMulti from './images/collablab_multi_full.png';
@@ -31,8 +33,7 @@ class CollabLab extends Component {
   render() {
     return (
       <div id={this.props.id} className="detail-page">
-        <BackButton />
-
+      <StickyContainer>
        <Grid fluid style={styles.grid}>
         <Row className="detail-row">
           <DetailHeader name="CollabLab" role="Research Assistant"
@@ -69,6 +70,12 @@ class CollabLab extends Component {
          </Row>
        </Grid>
 
+       <Sticky>
+         {({ style }) => (
+           <NavBar style={style} />
+         )}
+       </Sticky>
+      </StickyContainer>
       </div>
     )
   }

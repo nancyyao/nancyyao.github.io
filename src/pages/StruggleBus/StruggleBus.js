@@ -32,8 +32,7 @@ class StruggleBus extends Component {
   render() {
     return (
       <div id={this.props.id} className="detail-page">
-        <BackButton />
-
+        <StickyContainer>
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
               <DetailHeader name="StruggleBus" role="Developer" date="Apr - Jun 2018"
@@ -72,8 +71,14 @@ class StruggleBus extends Component {
                   friends who also use the app.</p>/>
                   <img className="detail-image-tight" style={styles.sb_image} src={SBClass}/>
                </Col>
-            </Row>=
+            </Row>
           </Grid>
+          <Sticky>
+            {({ style }) => (
+              <NavBar style={style} />
+            )}
+          </Sticky>
+        </StickyContainer>
       </div>
     );
   }

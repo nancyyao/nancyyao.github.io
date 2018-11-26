@@ -31,7 +31,7 @@ class MakerGirl extends Component {
   render() {
     return (
       <div id={this.props.id} className="detail-page">
-        <BackButton />
+        <StickyContainer>
 
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
@@ -95,10 +95,15 @@ class MakerGirl extends Component {
                <Col xs={7} style={styles.col}>
                  <img className="detail-image-right" src={MGSession2}/>
                </Col>
-
             </Row>
           </Grid>
 
+          <Sticky>
+            {({ style }) => (
+              <NavBar style={style} />
+            )}
+          </Sticky>
+        </StickyContainer>
       </div>
     );
   }

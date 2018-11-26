@@ -3,11 +3,22 @@ import { withRouter } from 'react-router'
 
 class ScrollToTop extends Component {
   componentDidUpdate(prevProps) {
-    if (prevProps.location === "/") {
-      window.scrollTo(0, 0);
+    if (this.props.location.pathname === "/dev") {
+      document.getElementById("developer-id").scrollIntoView()
       console.log(this.props.location.pathname);
-      console.log(typeof(this.props.location.pathname))
       console.log(prevProps.location);
+    }
+    else if (this.props.location.pathname === "/design") {
+      document.getElementById("design-id").scrollIntoView()
+    }
+    else if (this.props.location.pathname === "/sketches") {
+      document.getElementById("sketches-id").scrollIntoView()
+    }
+    else if (this.props.location.pathname === "/contact") {
+      document.getElementById("contact-id").scrollIntoView()
+    }
+    else {
+      window.scrollTo(0, 0);
     }
   }
 

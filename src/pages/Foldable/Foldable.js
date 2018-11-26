@@ -35,7 +35,7 @@ class Foldable extends Component {
   render() {
     return (
       <div id={this.props.id} className="detail-page">
-        <BackButton />
+        <StickyContainer>
 
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
@@ -103,7 +103,12 @@ class Foldable extends Component {
              </Col>
           </Row>
           </Grid>
-
+          <Sticky>
+            {({ style }) => (
+              <NavBar style={style} />
+            )}
+          </Sticky>
+        </StickyContainer>
       </div>
     );
   }
