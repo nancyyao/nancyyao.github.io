@@ -5,7 +5,6 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop.js'
 import NavBar from './components/Navbar/Navbar'
 import { StickyContainer, Sticky } from 'react-sticky';
 import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap/dist/css/bootstrap-theme.css';
 
 import './App.css';
 
