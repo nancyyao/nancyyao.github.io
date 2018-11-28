@@ -77,7 +77,7 @@ class Milk extends Component {
                  <img className="detail-image-left" src={MilkSketchRed}/>
                </Col>
                <Col xs={6} style={styles.col}>
-                 <Caption side="caption-left" header="Concept sketches"
+                 <Caption side="caption-right" header="Concept sketches"
                   text=<p>Classic silhouettes and loud colors were key. MINI Cooper isn't just meant for
                   function -- it wants to be seen. THis product had to be more than just a water vessel;
                   it needed to be an accessory.</p>/>
@@ -91,7 +91,7 @@ class Milk extends Component {
                  <img className="detail-image-left" src={MilkRed}/>
                </Col>
                <Col xs={5} style={styles.col}>
-                 <Caption side="caption-left" header="MILK"
+                 <Caption side="caption-right" header="MILK"
                   text=<p>The final design is modeled after another iconic shape -- the glass milk bottles
                   of the past.<br/><br/>SolidWorks renderings show a more detailed view of the painted glass bottle
                   with a steel cap, inspired by classic MINI Cooper colors and stripes.</p>/>

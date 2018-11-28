@@ -39,7 +39,7 @@ class Instagram extends Component {
 
          <Row className="detail-row">
            <Col xs={6} style={styles.col}>
-              <Caption side="caption-left caption-top" header="Working in tech"
+              <Caption side="caption-left" header="Working in tech"
                text=<p>Interning at Instagram for two summers taught me valuable skills about how to work in
                an industry setting, from functioning in a team to quickly adjusting to and working with an
                expansive code base in a huge, established company. I experienced the Silicon Valley tech
@@ -55,7 +55,7 @@ class Instagram extends Component {
             <img className="detail-image-left" src={IGProfile}/>
           </Col>
           <Col xs={6} style={styles.col}>
-            <Caption side="caption-right caption-top" header="Video Infra"
+            <Caption side="caption-right" header="Video Infra"
              text=<p>I worked on the iOS side of the IG Video Infra team in Menlo Park in 2017. For my
              main project, I developed a solution to optimize video uploading on the iOS app. For my
              secondary project, I communicated with IG Direct engineers to help unify media uploads
@@ -65,7 +65,7 @@ class Instagram extends Component {
 
          <Row className="detail-row">
            <Col xs={6} style={styles.col}>
-              <Caption side="caption-left caption-bottom" header="Metrics Infra"
+              <Caption side="caption-left" header="Metrics Infra"
                text=<p>In 2018, I interned on IG Metrics Infra, a sub-team of IG Client Stability, a core
                client team based in NYC that keeps Instagram running smoothly. <br/><br/>I designed and developed an
                internal data visualization tool to allow employees on various teams across the company to

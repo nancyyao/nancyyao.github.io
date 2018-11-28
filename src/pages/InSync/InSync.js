@@ -40,14 +40,14 @@ class InSync extends Component {
 
              <Row className="detail-row">
              <Col xs={6} style={styles.col}>
-               <Caption side="caption-left caption-top" header="Social streaming"
+               <Caption side="caption-left" header="Social streaming"
                 text=<p>Music is an integral part of any group activity. Why should one person have all
                 the responsibility?<br/><br/>InSync is a collaborative playlist-building and music-streaming
                 iOS app. It allows a group to crowdsource DJ-ing.<br/><br/>Users log in with Spotify to create
                 or join a "party," a group of friends who build a queue together through votes and contribute
                 their phones' speakers to play music simultaneously.</p>/>
              </Col>
-             <Col xs={5} style={styles.col}>
+             <Col xs={6} style={styles.col}>
                <img className="detail-image-right" src={ISHero}/>
              </Col>
             </Row>

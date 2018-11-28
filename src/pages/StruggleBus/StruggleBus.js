@@ -49,7 +49,7 @@ class StruggleBus extends Component {
                  browse available courses and find Facebook friends interested in the same ones, encouraging them to form
                  a support system before a class even starts.</p>/>
               </Col>
-               <Col xs={5} style={styles.col}>
+               <Col xs={6} style={styles.col}>
                  <img className="detail-image-right" src={SBHero}/>
                </Col>
             </Row>

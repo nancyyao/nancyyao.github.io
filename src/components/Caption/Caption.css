@@ -14,30 +14,18 @@
   text-align: left;
   padding: 12px;
   position: relative;
-  /* bottom: 12px; */
 }
-
 .caption-left {
-  /* right: 12px; */
-  float: right;
-}
-
-.caption-right {
-  /* left: 12px; */
   float: left;
+  padding-left: 0;
 }
-
+.caption-right {
+  float: right;
+  padding-right: 0;
+}
 .caption-tight {
   padding-top: 12px;
-  max-width: 250px;
+  max-width: 280px;
   text-align: left;
   position: relative;
-}
-
-.caption-bottom {
-  bottom: 12px;
-}
-
-.caption-top {
-  top: 12px;
 }

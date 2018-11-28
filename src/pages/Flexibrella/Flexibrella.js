@@ -51,12 +51,12 @@ class Flexibrella extends Component {
 
              <Row className="detail-row">
              <Col xs={6} style={styles.col}>
-               <Caption side="caption-left caption-top" header="Designing for user needs"
+               <Caption side="caption-left" header="Designing for user needs"
                 text=<p>The design problem presented to my team of four by our client, Eden
                 Supportive Living (Chicago), was to make it easier for their many wheelchair-using
                 residents to go out in rainy weather.</p>/>
              </Col>
-             <Col xs={5} style={styles.col}>
+             <Col xs={6} style={styles.col}>
                <img className="detail-image-right" src={FlexUser}/>
              </Col>
             </Row>
