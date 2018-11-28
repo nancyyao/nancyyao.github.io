@@ -30,8 +30,8 @@ import './Sketches.css';
 const customStyles = {
   content : {
     position: 'fixed',
-    maxWidth: '118vh',
-    maxHeight: '85vw',
+    maxWidth: '111vh',
+    maxHeight: '90vw',
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
