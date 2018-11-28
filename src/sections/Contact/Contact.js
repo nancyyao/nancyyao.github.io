@@ -14,7 +14,7 @@ class Contact extends Component {
           <Grid>
             <Row>
               <Col xs={4}>
-                <Image className="about-me-image" src={profile} alt="profile" responsive/>
+                <Image className="about-me-image" src={profile} alt="profile" circle responsive/>
               </Col>
 
               <Col xs={8}>

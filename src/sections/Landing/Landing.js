@@ -4,7 +4,7 @@ import { Image } from 'react-bootstrap';
 import dev from './images/dev1.png';
 import design from './images/design1.png';
 import sketch from './images/sketch1.png';
-import contact from './images/contact.png';
+import contact from '../../files/profile.png';
 
 import './Landing.css';
 

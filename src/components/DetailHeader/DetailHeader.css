@@ -22,7 +22,7 @@
 }
 
 .detailRole, .detailDate {
-  font-size: calc(6px + 1vmin);
+  font-size: calc(1px + 2vmin);
   color: #686868;
   margin-left: 6px;
 }
