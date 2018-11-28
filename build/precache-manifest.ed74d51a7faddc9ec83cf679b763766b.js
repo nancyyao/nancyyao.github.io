@@ -1,27 +1,47 @@
 self.__precacheManifest = [
   {
-    "revision": "3001369d3d2463dd3daffe8c681c4eb4",
-    "url": "/static/media/bh_opportunity.3001369d.jpeg"
+    "revision": "b620e7033eda24b852439465c4bed7b6",
+    "url": "/static/media/sb_mockup.b620e703.png"
   },
   {
-    "revision": "e950cfdf5c7b333ae676",
-    "url": "/static/css/main.67f99f4f.chunk.css"
+    "revision": "52f292c0b704036e20bb",
+    "url": "/static/css/main.ecaab1d9.chunk.css"
   },
   {
     "revision": "727e3b419deab731f7a39ae286cbca7d",
     "url": "/static/media/flexibrella_team.727e3b41.JPG"
   },
   {
-    "revision": "febc7ad6929b276bbe5b",
-    "url": "/static/js/1.febc7ad6.chunk.js"
+    "revision": "907a5674c26bf0c319ba",
+    "url": "/static/js/1.907a5674.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
+    "revision": "4fc52d735ed4626efa6a2c20cb3adb27",
+    "url": "/static/media/profile.4fc52d73.png"
+  },
+  {
     "revision": "c130e8eea10d7094322bfe7744de1f46",
     "url": "/static/media/Foldable2.c130e8ee.png"
+  },
+  {
+    "revision": "56a5cb74a2dcd959f10851e7cee3f375",
+    "url": "/static/media/resume.56a5cb74.pdf"
+  },
+  {
+    "revision": "1e2337d3e413b78c7937edd1c720d0ae",
+    "url": "/static/media/dev1.1e2337d3.png"
+  },
+  {
+    "revision": "8766f83d57992e76d5ab9091f8fd2271",
+    "url": "/static/media/design1.8766f83d.png"
+  },
+  {
+    "revision": "567b5bf431ec10ff8eb88fcdab550d5a",
+    "url": "/static/media/sketch1.567b5bf4.png"
   },
   {
     "revision": "291f8d0c672c3802462ccf3e50f2886d",
@@ -148,10 +168,6 @@ self.__precacheManifest = [
     "url": "/static/media/Mod3.8205687e.png"
   },
   {
-    "revision": "68ba340e7fe39f6098ae64e71af3ac5b",
-    "url": "/static/media/profile.68ba340e.png"
-  },
-  {
     "revision": "1f9393e2948e2d13aa498e908ae7a7dd",
     "url": "/static/media/ig_logo.1f9393e2.png"
   },
@@ -180,8 +196,8 @@ self.__precacheManifest = [
     "url": "/static/media/insync3.79afff06.png"
   },
   {
-    "revision": "b620e7033eda24b852439465c4bed7b6",
-    "url": "/static/media/sb_mockup.b620e703.png"
+    "revision": "52f292c0b704036e20bb",
+    "url": "/static/js/main.52f292c0.chunk.js"
   },
   {
     "revision": "36861961f5659db11710122c5b6b7ddd",
@@ -196,8 +212,8 @@ self.__precacheManifest = [
     "url": "/static/media/bh_logo.07a6597d.jpg"
   },
   {
-    "revision": "e950cfdf5c7b333ae676",
-    "url": "/static/js/main.e950cfdf.chunk.js"
+    "revision": "3001369d3d2463dd3daffe8c681c4eb4",
+    "url": "/static/media/bh_opportunity.3001369d.jpeg"
   },
   {
     "revision": "1038895c48995ea5075fbf80ac6ad0c4",
@@ -348,26 +364,6 @@ self.__precacheManifest = [
     "url": "/static/media/flexibrella_sketch3.0680e2cf.png"
   },
   {
-    "revision": "56a5cb74a2dcd959f10851e7cee3f375",
-    "url": "/static/media/resume.56a5cb74.pdf"
-  },
-  {
-    "revision": "6ac53b059feffd0dec879b30fc90acad",
-    "url": "/static/media/code-circle.6ac53b05.png"
-  },
-  {
-    "revision": "174ced473b1213c09569c723e48c3fbd",
-    "url": "/static/media/design-circle.174ced47.png"
-  },
-  {
-    "revision": "d2e8a290f033d7891ad92eb024a81e50",
-    "url": "/static/media/sketch-circle.d2e8a290.png"
-  },
-  {
-    "revision": "1974cbaee1fd09202ff6cb74caab3e5b",
-    "url": "/static/media/contact-circle.1974cbae.png"
-  },
-  {
     "revision": "a04fc1525220134694fc95f87fb8cd02",
     "url": "/static/media/Furniture4.a04fc152.png"
   },
@@ -388,11 +384,11 @@ self.__precacheManifest = [
     "url": "/static/media/flexibrella_closeup_3.89d32797.png"
   },
   {
-    "revision": "febc7ad6929b276bbe5b",
-    "url": "/static/css/1.0ffcc33a.chunk.css"
+    "revision": "907a5674c26bf0c319ba",
+    "url": "/static/css/1.0fb1befc.chunk.css"
   },
   {
-    "revision": "74aeab95c7fe0b6dd31fa57eb0ae3242",
+    "revision": "be73e2b3c201fbf0e151dba19abefd43",
     "url": "/index.html"
   }
 ];
