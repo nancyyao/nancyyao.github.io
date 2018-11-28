@@ -13,7 +13,7 @@ class Design extends Component {
     return (
       <div id={this.props.id} className="Design main-section">
         <header className="section-header">
-          <p>a maker...</p>
+          <p>a designer...</p>
         </header>
         <div className="Design-body">
           <div>

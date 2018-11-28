@@ -12,24 +12,14 @@ class NavBar extends Component {
       <Navbar style={this.props.style} className="Navbar">
         <div className="container-fluid">
           <Nav pullLeft style={{display:"flex", flexDirection:"row"}}>
-            <NavItem>
-              <Link to="/"><p className="Navbar-item">nancy yao</p></Link>
-            </NavItem>
+            <Link to="/" className="Navbar-item"><p>nancy yao</p></Link>
           </Nav>
-
           <Nav pullRight style={{display:"flex", flexDirection:"row"}}>
-            <NavItem>
-              <Link to="/dev"><p className="Navbar-item">tech</p></Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/design"><p className="Navbar-item">design</p></Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/sketches"><p className="Navbar-item">sketches</p></Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/contact"><p className="Navbar-item">contact</p></Link>
-            </NavItem>
+            <Link to="/dev" className="Navbar-item"><p>developer</p></Link>
+            <Link to="/design" className="Navbar-item"><p>designer</p></Link>
+            <Link to="/sketches" className="Navbar-item"><p>sketches</p></Link>
+            <Link to="/contact" className="Navbar-item"><p>contact</p></Link>
+            <a className="Navbar-item" href={resume}>resume</a>
           </Nav>
         </div>
       </Navbar>
@@ -38,8 +28,3 @@ class NavBar extends Component {
 }
 
 export default NavBar
-
-
-// <a onClick={function()
-//   { document.getElementById("design-id").scrollIntoView(); }
-// }><p className="Navbar-item">design</p></a>

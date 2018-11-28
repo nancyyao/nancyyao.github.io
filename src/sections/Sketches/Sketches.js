@@ -130,7 +130,7 @@ class Sketches extends Component {
         </Modal>
 
         <header className="section-header">
-          <p>...and a designer.</p>
+          <p>...and a thinker.</p>
         </header>
         <div className="Sketches-body">
           <div>

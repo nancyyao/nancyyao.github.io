@@ -9,7 +9,7 @@
 
 .Navbar {
   background-color: #282c34;
-  background-color: rgba(104,104,104,0.75);
+  background-color: rgba(104,104,104,0.8);
   border: none;
   margin: 0;
 }
@@ -21,9 +21,8 @@
 
 .Navbar-item {
   color: #eeeeee;
-  text-decoration: none;
-  font-size: calc(8px + 2vmin);
-  margin: 0 10px 0 10px;
+  font-size: calc(6px + 2vmin);
+  margin: 5px 14px 0 14px;
 }
 
 .Navbar-item:active, .Navbar-item:hover {
