@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/sb_mockup.b620e703.png"
   },
   {
-    "revision": "52f292c0b704036e20bb",
-    "url": "/static/css/main.ecaab1d9.chunk.css"
+    "revision": "fb93aab96bc434e5cdb5",
+    "url": "/static/css/main.97c3e28f.chunk.css"
   },
   {
     "revision": "727e3b419deab731f7a39ae286cbca7d",
     "url": "/static/media/flexibrella_team.727e3b41.JPG"
   },
   {
-    "revision": "907a5674c26bf0c319ba",
-    "url": "/static/js/1.907a5674.chunk.js"
+    "revision": "e549155d7e7059f359ca",
+    "url": "/static/js/1.e549155d.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/static/media/polaroid-flexibrella.9139ed65.png"
   },
   {
-    "revision": "3c65b41a7bbdffbc12bd764ab9b48785",
-    "url": "/static/media/polaroid-blank.3c65b41a.png"
+    "revision": "62e323afe9884e751863e50c5d2ba133",
+    "url": "/static/media/polaroid-mayfest.62e323af.png"
   },
   {
     "revision": "749e6b0720dce13c2b7ed7a4b8f8d1ba",
@@ -196,8 +196,8 @@ self.__precacheManifest = [
     "url": "/static/media/insync3.79afff06.png"
   },
   {
-    "revision": "52f292c0b704036e20bb",
-    "url": "/static/js/main.52f292c0.chunk.js"
+    "revision": "fb93aab96bc434e5cdb5",
+    "url": "/static/js/main.fb93aab9.chunk.js"
   },
   {
     "revision": "36861961f5659db11710122c5b6b7ddd",
@@ -364,14 +364,6 @@ self.__precacheManifest = [
     "url": "/static/media/flexibrella_sketch3.0680e2cf.png"
   },
   {
-    "revision": "a04fc1525220134694fc95f87fb8cd02",
-    "url": "/static/media/Furniture4.a04fc152.png"
-  },
-  {
-    "revision": "13727c3358d4d5fb7a5d3d9ce6cfaff9",
-    "url": "/static/media/Foldable1.13727c33.png"
-  },
-  {
     "revision": "663ef2352c5131fbe3e3731d677455bf",
     "url": "/static/media/flexibrella_closeup_1.663ef235.png"
   },
@@ -384,11 +376,19 @@ self.__precacheManifest = [
     "url": "/static/media/flexibrella_closeup_3.89d32797.png"
   },
   {
-    "revision": "907a5674c26bf0c319ba",
-    "url": "/static/css/1.0fb1befc.chunk.css"
+    "revision": "a04fc1525220134694fc95f87fb8cd02",
+    "url": "/static/media/Furniture4.a04fc152.png"
   },
   {
-    "revision": "be73e2b3c201fbf0e151dba19abefd43",
+    "revision": "13727c3358d4d5fb7a5d3d9ce6cfaff9",
+    "url": "/static/media/Foldable1.13727c33.png"
+  },
+  {
+    "revision": "e549155d7e7059f359ca",
+    "url": "/static/css/1.6f8228fe.chunk.css"
+  },
+  {
+    "revision": "084b64a40882891999b1eeca12e6449e",
     "url": "/index.html"
   }
 ];
