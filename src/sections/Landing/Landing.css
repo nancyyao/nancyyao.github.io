@@ -60,6 +60,7 @@
 
 .Landing-link {
   color: #3e7c72 !important;
+  font-weight: normal;
 }
 
 @keyframes App-logo-spin {

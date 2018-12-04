@@ -29,7 +29,6 @@
   position: relative;
   display: inline-block;
 }
-
 .design-overlay {
   position: absolute;
   top: 0;
@@ -40,12 +39,10 @@
   opacity: 0;
   background-color: #c3878c;
 }
-
 .design-overlay-container:hover .design-overlay {
   opacity: 0.8;
   cursor: pointer;
 }
-
 .design-overlay-text {
   color: white;
   font-size: calc(12px + 2vmin);

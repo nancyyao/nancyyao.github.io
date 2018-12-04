@@ -20,10 +20,13 @@ p, a, h1, h2, h3, h4, h5, h6 {
 a {
   cursor: pointer;
   text-decoration: none;
+  color: #3e7c72;
+  font-weight: bold;
 }
 
 a:hover, a:active {
   color: #c3878c !important;
+  text-decoration: none;
 }
 
 .main-section, .detail-page {
