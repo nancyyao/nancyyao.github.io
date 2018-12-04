@@ -20,6 +20,38 @@
 
 .Design-polaroid {
   width: 40vmin;
-  /* height: 40vmin; */
+  /* margin: 2vw; */
+}
+
+.design-overlay-container {
+  /* height: 15vmin; */
   margin: 2vw;
+  position: relative;
+  display: inline-block;
+}
+
+.design-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 4% 4% 20% 4%;
+  opacity: 0;
+  background-color: #c3878c;
+}
+
+.design-overlay-container:hover .design-overlay {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.design-overlay-text {
+  color: white;
+  font-size: calc(12px + 2vmin);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }

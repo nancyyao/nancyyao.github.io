@@ -44,7 +44,6 @@
   border: 1px solid #87c3b9;
   border-radius: 50%;
 }
-
 .nav-icon-text {
   color: white;
   font-size: calc(5px + 2vmin);
@@ -56,6 +55,7 @@
 }
 .nav-icon-container:hover .nav-icon-overlay {
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .Landing-link {

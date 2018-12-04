@@ -15,8 +15,8 @@ class NavBar extends Component {
             <Link to="/" className="Navbar-item"><p>nancy yao</p></Link>
           </Nav>
           <Nav pullRight style={{display:"flex", flexDirection:"row"}}>
-            <Link to="/dev" className="Navbar-item"><p>developer</p></Link>
-            <Link to="/design" className="Navbar-item"><p>designer</p></Link>
+            <Link to="/dev" className="Navbar-item"><p>tech</p></Link>
+            <Link to="/design" className="Navbar-item"><p>design</p></Link>
             <Link to="/sketches" className="Navbar-item"><p>sketches</p></Link>
             <Link to="/contact" className="Navbar-item"><p>contact</p></Link>
             <a className="Navbar-item" href={resume}>resume</a>

@@ -26,6 +26,9 @@ class Contact extends Component {
                 Instagram, doing HCI research at CollabLab, and co-founding the
                 Northwestern Academy of MakerGirl, which gives me an excuse to use 3D
                 printers while teaching girls about STEM!</p>
+                <p className="about-me-body">My goal is to use my computer science and design skills to solve
+                problems for real people, crafting technical solutions and user interfaces
+                at the intersection of design and technology.</p>
                 <a href="mailto:nancyyao2019@u.northwestern.edu">
                   <img className="social" src={mail}/>
                 </a>
