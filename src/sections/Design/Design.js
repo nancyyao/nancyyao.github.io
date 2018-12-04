@@ -5,7 +5,7 @@ import milk from './images/polaroid-milk.png';
 import foldable from './images/polaroid-foldable.png';
 import makergirl from './images/polaroid-makergirl.png';
 import flexibrella from './images/polaroid-flexibrella.png';
-import blank from './images/polaroid-blank.png';
+import mayfest from './images/polaroid-mayfest.png';
 import './Design.css';
 
 class Design extends Component {
@@ -54,7 +54,7 @@ class Design extends Component {
             </Link>
             <Link to="/design-mayfest">
               <div class="design-overlay-container">
-                <img src={blank} className="Design-polaroid" alt="mayfest" />
+                <img src={mayfest} className="Design-polaroid" alt="mayfest" />
                 <div class="design-overlay">
                   <p class="design-overlay-text">Mayfest</p>
                 </div>
