@@ -33,7 +33,7 @@ class InSync extends Component {
       <StickyContainer>
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
-              <DetailHeader name="InSync" role="Developer" date="Jun - Aug 2016"
+              <DetailHeader name="InSync" role="Developer" date="Jun - Aug 2016" skills="iOS development, Swift, UI design"
               tagline="Developing an app to create a fun, collaborative music streaming experience by
               allowing friends to share control of the music being played."/>
             </Row>

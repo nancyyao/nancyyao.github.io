@@ -27,7 +27,7 @@
 .Dev-mockup-desktop {
   /* width: 40vw; */
   height: 50vmin;
-  margin: 2vw;
+  /* margin: 2vw; */
 }
 
 .dev-overlay-container {
@@ -52,7 +52,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  margin: 9% 7% 19% 7%;
+  margin: 5% 3% 15% 3%;
   opacity: 0;
   background-color: #c3878c;
 }

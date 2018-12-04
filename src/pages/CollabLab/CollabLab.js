@@ -37,7 +37,7 @@ class CollabLab extends Component {
        <Grid fluid style={styles.grid}>
         <Row className="detail-row">
           <DetailHeader name="CollabLab" role="Research Assistant"
-          date="Oct 2016 - Jun 2018"
+          date="Oct 2016 - Jun 2018" skills="C#, C++, Research, User testing"
           tagline="Using eye-tracking visualizations to design systems that augment remote collaboration and learning."/>
         </Row>
 

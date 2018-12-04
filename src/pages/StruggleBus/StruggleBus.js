@@ -35,7 +35,7 @@ class StruggleBus extends Component {
         <StickyContainer>
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
-              <DetailHeader name="StruggleBus" role="Developer" date="Apr - Jun 2018"
+              <DetailHeader name="StruggleBus" role="Developer" date="Apr - Jun 2018" skills="Ionic/Angular, JavaScript, Agile software development, User testing"
                tagline="Developing an app that makes the class registration process easier by helping college students
                find friends to take classes with."/>
             </Row>

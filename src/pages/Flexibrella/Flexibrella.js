@@ -40,6 +40,7 @@ class Flexibrella extends Component {
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
               <DetailHeader name="Flexibrella" role="Designer" date="June - Aug 2016"
+              skills="User research/testing, Prototyping, Sketching, Design thinking"
               tagline="Designing an accessible tool to make it easier for wheelchair users to go out on rainy days."/>
             </Row>
 
@@ -73,10 +74,34 @@ class Flexibrella extends Component {
               <Col className="flex-col-3" xs={4} style={styles.col}>
                 <Caption side="caption-tight" header="Iterative process"
                  text=<p>Our design process consisted of research, interviews with Eden
-                 residents, ideation, prototyping, and user observation.<br/><br/>The final
-                 design shields users from rain, can easily attach to wheelchairs, is adjustable
-                 in angle and height, and is easy to stow.</p>/>
+                 residents, ideation, prototyping, and user observation.<br/><br/></p>/>
                  <img className="detail-image-right detail-image-tight" src={FlexSketch3}/>
+              </Col>
+            </Row>
+
+            <Row className="detail-row">
+              <Col xs={6} style={styles.col}>
+                <img className="detail-image-left" src={FlexCloseup1}/>
+                <img className="detail-image-left" src={FlexCloseup2}/>
+              </Col>
+
+              <Col xs={6} style={styles.col}>
+                <Caption side="caption-right" header="Building a prototype"
+                 text=<p>Flexibrella consists of: an
+                 aluminum U-channel with 3D printed plastic lining and a screw for attachment;
+                 a gooseneck arm for easy adjustment; and a polyethylene and plexiglass base. </p>/>
+              </Col>
+            </Row>
+
+            <Row className="detail-row">
+              <Col xs={6} style={styles.col}>
+                <Caption side="caption-right" header="Final product"
+                 text=<p>The final design is an umbrella holder attachment that shields users from rain, can easily attach to
+                 wheelchairs, is adjustable in angle and height, and is easy to stow.</p>/>
+              </Col>
+
+              <Col xs={6} style={styles.col}>
+                <img className="detail-image-right" src={FlexCloseup3}/>
               </Col>
             </Row>
           </Grid>

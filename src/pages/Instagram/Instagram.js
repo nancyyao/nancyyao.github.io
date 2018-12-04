@@ -34,6 +34,7 @@ class Instagram extends Component {
          <Row className="detail-row">
            <DetailHeader name="Instagram" role="Software Engineering Intern, IG Metrics Infrastructure,
            IG Video Infrastructure" date="June - Sep 2018, June - Sep 2017"
+           skills="iOS development, Objective-C"
            tagline="Interning as a software engineer for a social media giant in Menlo Park and New York City."/>
          </Row>
 

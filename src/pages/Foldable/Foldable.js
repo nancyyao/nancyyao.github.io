@@ -40,6 +40,7 @@ class Foldable extends Component {
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
               <DetailHeader name="Foldable" role="Designer" date="Apr - Jun 2018"
+              skills="CAD (SolidWorks), Sketching, Prototyping, User research/testing"
               tagline="Designing a product to inspire apartment dwellers with limited space to optimize their kitchen use and prepare meals more often."/>
             </Row>
 

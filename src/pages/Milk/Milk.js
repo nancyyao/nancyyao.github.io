@@ -40,6 +40,7 @@ class Milk extends Component {
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
               <DetailHeader name="MILK" role="Designer" date="Apr - May 2018"
+              skills="CAD (SolidWorks), Sketching, Design thinking"
               tagline="Designing a water bottle inspired by the Visual Brand Language of the MINI Cooper."/>
             </Row>
 

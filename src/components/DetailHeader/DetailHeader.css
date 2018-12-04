@@ -21,7 +21,7 @@
   margin-bottom: 8px;
 }
 
-.detailRole, .detailDate {
+.detailSubheading {
   font-size: calc(1px + 2vmin);
   color: #686868;
   margin-left: 6px;
