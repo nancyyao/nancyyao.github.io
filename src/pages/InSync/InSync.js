@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import NavBar from '../../components/Navbar/Navbar';
 import DetailHeader from '../../components/DetailHeader/DetailHeader';
 import Caption from '../../components/Caption/Caption';
-import BackButton from '../../components/BackButton/BackButton';
 import { StickyContainer, Sticky } from 'react-sticky';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Bootstrap, Grid, Row, Col, Image } from 'react-bootstrap';

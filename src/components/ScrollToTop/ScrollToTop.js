@@ -14,7 +14,7 @@ class ScrollToTop extends Component {
     else if (this.props.location.pathname === "/sketches") {
       document.getElementById("sketches-id").scrollIntoView()
     }
-    else if (this.props.location.pathname === "/contact") {
+    else if (this.props.location.pathname === "/about") {
       document.getElementById("contact-id").scrollIntoView()
     }
     else {

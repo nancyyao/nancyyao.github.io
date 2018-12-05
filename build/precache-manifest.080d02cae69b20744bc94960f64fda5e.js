@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b620e7033eda24b852439465c4bed7b6",
-    "url": "/static/media/sb_mockup.b620e703.png"
+    "revision": "1038895c48995ea5075fbf80ac6ad0c4",
+    "url": "/static/media/app1.1038895c.png"
   },
   {
-    "revision": "fb93aab96bc434e5cdb5",
-    "url": "/static/css/main.97c3e28f.chunk.css"
+    "revision": "4d63721c38342b00fe38",
+    "url": "/static/css/main.5b228d7a.chunk.css"
   },
   {
-    "revision": "727e3b419deab731f7a39ae286cbca7d",
-    "url": "/static/media/flexibrella_team.727e3b41.JPG"
+    "revision": "407796ad8fd0869c039421024da3cbb2",
+    "url": "/static/media/artist_detail2.407796ad.png"
   },
   {
-    "revision": "e549155d7e7059f359ca",
-    "url": "/static/js/1.e549155d.chunk.js"
+    "revision": "9b6df31aa46400716a28",
+    "url": "/static/js/1.9b6df31a.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -196,8 +196,8 @@ self.__precacheManifest = [
     "url": "/static/media/insync3.79afff06.png"
   },
   {
-    "revision": "fb93aab96bc434e5cdb5",
-    "url": "/static/js/main.fb93aab9.chunk.js"
+    "revision": "b620e7033eda24b852439465c4bed7b6",
+    "url": "/static/media/sb_mockup.b620e703.png"
   },
   {
     "revision": "36861961f5659db11710122c5b6b7ddd",
@@ -216,8 +216,8 @@ self.__precacheManifest = [
     "url": "/static/media/bh_opportunity.3001369d.jpeg"
   },
   {
-    "revision": "1038895c48995ea5075fbf80ac6ad0c4",
-    "url": "/static/media/app1.1038895c.png"
+    "revision": "4d63721c38342b00fe38",
+    "url": "/static/js/main.4d63721c.chunk.js"
   },
   {
     "revision": "b749295611d925e7b9f636c0757b5161",
@@ -376,6 +376,42 @@ self.__precacheManifest = [
     "url": "/static/media/flexibrella_closeup_3.89d32797.png"
   },
   {
+    "revision": "b97a2aea57b1b497d83c3c7d69102df3",
+    "url": "/static/media/dillo.b97a2aea.png"
+  },
+  {
+    "revision": "145a91470cf7e64e3cf791b7847a875a",
+    "url": "/static/media/Sketches_1.145a9147.JPG"
+  },
+  {
+    "revision": "224002829eda6352e36bc975e1f5b955",
+    "url": "/static/media/Sketches_2.22400282.JPG"
+  },
+  {
+    "revision": "f473ffa591fc0afdf7c100ea161f33ff",
+    "url": "/static/media/lineup.f473ffa5.png"
+  },
+  {
+    "revision": "ef65f8744fcea1fbd5aadfd3ace022aa",
+    "url": "/static/media/artist_detail1.ef65f874.png"
+  },
+  {
+    "revision": "45033d17d6ee2a5e02bfc4ad9eb36634",
+    "url": "/static/media/resources.45033d17.png"
+  },
+  {
+    "revision": "278c9889d0d78f4ea1a170a2cea85ec5",
+    "url": "/static/media/lineup.278c9889.png"
+  },
+  {
+    "revision": "64484519168df10978e9cbf40502f236",
+    "url": "/static/media/artist.64484519.png"
+  },
+  {
+    "revision": "56eed8589c87228cff7579c93d59023f",
+    "url": "/static/media/resources.56eed858.PNG"
+  },
+  {
     "revision": "a04fc1525220134694fc95f87fb8cd02",
     "url": "/static/media/Furniture4.a04fc152.png"
   },
@@ -384,11 +420,15 @@ self.__precacheManifest = [
     "url": "/static/media/Foldable1.13727c33.png"
   },
   {
-    "revision": "e549155d7e7059f359ca",
-    "url": "/static/css/1.6f8228fe.chunk.css"
+    "revision": "727e3b419deab731f7a39ae286cbca7d",
+    "url": "/static/media/flexibrella_team.727e3b41.JPG"
   },
   {
-    "revision": "084b64a40882891999b1eeca12e6449e",
+    "revision": "9b6df31aa46400716a28",
+    "url": "/static/css/1.3cfa2043.chunk.css"
+  },
+  {
+    "revision": "d2e4f8b228f2dc66e363ec0b96dd7bdb",
     "url": "/index.html"
   }
 ];

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import DetailHeader from '../../components/DetailHeader/DetailHeader';
 import Caption from '../../components/Caption/Caption';
-import BackButton from '../../components/BackButton/BackButton';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Bootstrap, Grid, Row, Col, Image } from 'react-bootstrap';
 import { StickyContainer, Sticky } from 'react-sticky';

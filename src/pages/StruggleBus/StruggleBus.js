@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import NavBar from '../../components/Navbar/Navbar';
 import DetailHeader from '../../components/DetailHeader/DetailHeader';
 import Caption from '../../components/Caption/Caption';
-import BackButton from '../../components/BackButton/BackButton';
 import { StickyContainer, Sticky } from 'react-sticky';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Bootstrap, Grid, Row, Col, Image } from 'react-bootstrap';
@@ -56,21 +55,16 @@ class StruggleBus extends Component {
 
             <Row className="detail-row">
                <Col xs={6}>
-                 <img className="detail-image-tight sb-image" src={SBHome}/>
-                 <br/>
-                 <br/>
-                 <br/>
-                 <br/>
-                 <br/>
-                 <Caption side="caption-left caption-tight" header="Viewing courses"
+                 <img className="detail-image-left sb-image" src={SBHome}/>
+                 <Caption side="caption-left" header="Viewing courses"
                   text=<p>Course data is pulled from CAESAR. Students can browse and add classes they're interested
                   in, as well as see which Facebook friends and other users are also interested.</p>/>
                </Col>
                <Col xs={6}>
-                 <Caption side="caption-right caption-tight" header="Facebook integration"
+                 <Caption side="caption-right" header="Facebook integration"
                   text=<p>The Facebook SDK allows students to log in with their Facebook accounts and see Facebook
                   friends who also use the app.</p>/>
-                  <img className="detail-image-tight" style={styles.sb_image} src={SBClass}/>
+                  <img className="detail-image-right" style={styles.sb_image} src={SBClass}/>
                </Col>
             </Row>
           </Grid>

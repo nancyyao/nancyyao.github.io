@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import NavBar from '../../components/Navbar/Navbar';
 import DetailHeader from '../../components/DetailHeader/DetailHeader';
 import Caption from '../../components/Caption/Caption';
-import BackButton from '../../components/BackButton/BackButton';
 import { StickyContainer, Sticky } from 'react-sticky';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Bootstrap, Grid, Row, Col, Image } from 'react-bootstrap';
@@ -51,22 +50,23 @@ class Milk extends Component {
             </Row>
 
             <Row className="detail-row">
-               <Col xs={7} style={styles.col}>
+               <Col xs={6} style={styles.col}>
                  <img className="detail-image-left" src={MilkBoard1}/>
                </Col>
-               <Col xs={5} style={styles.col}>
+               <Col xs={6} style={styles.col}>
                  <Caption side="caption-right" header="Inspiration for everyday objects"
                   text=<p>MILK is a water bottle inspired by the Visual Brand Language of the MINI Cooper.</p>/>
                </Col>
             </Row>
 
             <Row className="detail-row">
-              <Col xs={5} style={styles.col}>
+              <Col xs={6} style={styles.col}>
                 <Caption side="caption-left" header="Capturing the MINI essence"
                  text=<p>The MINI Cooper calls to mind an iconic look and feel that it has stayed true to since
-                 the 60s. I drew inspiration from its defining brand traits: bold, colorful, and classic.</p>/>
+                 the 60s. I drew inspiration from its defining brand traits - bold, colorful, and classic - in
+                 order to create the image boards above and to the right.</p>/>
               </Col>
-               <Col xs={7} style={styles.col}>
+               <Col xs={6} style={styles.col}>
                  <img className="detail-image-right" src={MilkBoard2}/>
                  <img className="detail-image-right" src={MilkBoard3}/>
                </Col>
@@ -80,8 +80,8 @@ class Milk extends Component {
                <Col xs={6} style={styles.col}>
                  <Caption side="caption-right" header="Concept sketches"
                   text=<p>Classic silhouettes and loud colors were key. MINI Cooper isn't just meant for
-                  function -- it wants to be seen. THis product had to be more than just a water vessel;
-                  it needed to be an accessory.</p>/>
+                  function - it wants to be seen. This product had to be more than just a water vessel;
+                  it needed to be an accessory. These sketches were the result of some of my initial ideas.</p>/>
                   <img className="detail-image-right milk-sketch-paper" src={MilkSketchPaper}/>
                </Col>
             </Row>
@@ -93,9 +93,10 @@ class Milk extends Component {
                </Col>
                <Col xs={5} style={styles.col}>
                  <Caption side="caption-right" header="MILK"
-                  text=<p>The final design is modeled after another iconic shape -- the glass milk bottles
-                  of the past.<br/><br/>SolidWorks renderings show a more detailed view of the painted glass bottle
-                  with a steel cap, inspired by classic MINI Cooper colors and stripes.</p>/>
+                  text=<p>The final design is modeled after another iconic shape: the glass milk bottles
+                  of the past.<br/><br/>I used SolidWorks to create the renderings to the left, which show
+                  a more detailed view of the painted glass bottle with a steel cap, inspired by classic
+                  MINI Cooper colors and stripes.</p>/>
                </Col>
             </Row>
           </Grid>

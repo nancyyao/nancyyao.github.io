@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import NavBar from '../../components/Navbar/Navbar';
 import DetailHeader from '../../components/DetailHeader/DetailHeader';
 import Caption from '../../components/Caption/Caption';
-import BackButton from '../../components/BackButton/BackButton';
 import { StickyContainer, Sticky } from 'react-sticky';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Bootstrap, Grid, Row, Col, Image } from 'react-bootstrap';
@@ -55,7 +54,8 @@ class Flexibrella extends Component {
                <Caption side="caption-left" header="Designing for user needs"
                 text=<p>The design problem presented to my team of four by our client, Eden
                 Supportive Living (Chicago), was to make it easier for their many wheelchair-using
-                residents to go out in rainy weather.</p>/>
+                residents to go out in rainy weather.<br/><br/>The picture to the right shows a
+                test run of our prototype.</p>/>
              </Col>
              <Col xs={6} style={styles.col}>
                <img className="detail-image-right" src={FlexUser}/>
@@ -95,7 +95,7 @@ class Flexibrella extends Component {
 
             <Row className="detail-row">
               <Col xs={6} style={styles.col}>
-                <Caption side="caption-right" header="Final product"
+                <Caption side="caption-left" header="Final product"
                  text=<p>The final design is an umbrella holder attachment that shields users from rain, can easily attach to
                  wheelchairs, is adjustable in angle and height, and is easy to stow.</p>/>
               </Col>

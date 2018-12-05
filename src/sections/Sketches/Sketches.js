@@ -30,8 +30,8 @@ import './Sketches.css';
 const customStyles = {
   content : {
     position: 'fixed',
-    maxWidth: '111vh',
-    maxHeight: '90vw',
+    maxWidth: '105vh',
+    maxHeight: '95vw',
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
@@ -78,7 +78,7 @@ const carouselWearable = <img src={wearable} className='modal-image'/>
 const captionTent = <div>
 <h3 className="modal-caption-title">camping <span className="modal-caption-subtitle">for non-campers</span></h3>
 <p className="modal-caption-body">As someone who doesn't go camping, designing a camping experience was a challenge to come up
-with a product that would convince me to go out and use it. Biosphere allows camper sto enjoy being in nautre while still being
+with a product that would convince me to go out and use it. Biosphere allows campers to enjoy being in nature while still being
 separate from the outside. The sheer domed roof allows you to sleep under the stars, and the tent frame itself is easy to expand
 to set up, or contract to store.</p></div>
 const carouselTent = <img src={tent} className='modal-image'/>
@@ -130,7 +130,7 @@ class Sketches extends Component {
         </Modal>
 
         <header className="section-header">
-          <p>...and a thinker.</p>
+          <p>...and a creative thinker.</p>
         </header>
         <div className="Sketches-body">
           <div>

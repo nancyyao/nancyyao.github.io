@@ -4,7 +4,6 @@ import NavBar from '../../components/Navbar/Navbar';
 import { StickyContainer, Sticky } from 'react-sticky';
 import DetailHeader from '../../components/DetailHeader/DetailHeader';
 import Caption from '../../components/Caption/Caption';
-import BackButton from '../../components/BackButton/BackButton';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Bootstrap, Grid, Row, Col, Image } from 'react-bootstrap';
 
@@ -83,13 +82,13 @@ class BuildHer extends Component {
          </Row>
 
          <Row className="detail-row">
-           <Col xs={5}>
+           <Col xs={6}>
              <Caption side="caption-left" header="On the web"
               text=<p>In 2017 and 2018, I worked on building our website. This and the mobile app
               reflect not only the same content, but the BuildHer brand, including its jewel toned
-              colors and clean interface</p>/>
+              colors and clean interface.</p>/>
            </Col>
-           <Col xs={7} style={styles.col}>
+           <Col xs={6} style={styles.col}>
               <img className="detail-image-right" src={BHWeb1}/>
            </Col>
          </Row>
@@ -110,7 +109,7 @@ class BuildHer extends Component {
            <Col xs={6} style={styles.col}>
               <Caption side="caption-right" header="Creating great things"
                text=<p>Just as rewarding as the tech aspect of BuildHer was being involved in the
-               event, seeing a diverse set of women connect and create impressive projects, from mobile apps
+               event and seeing a diverse set of women connect and create impressive projects, from mobile apps
                that increase sexual health awareness in teens to voice-activated Alexa apps.<br/><br/>
                BuildHer is unique because it's beginner-focused. At the event, I taught a web dev workshop and
                helped mentor groups. Meeting women who had never coded before and seeing them later present

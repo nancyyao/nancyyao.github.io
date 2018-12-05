@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import NavBar from '../../components/Navbar/Navbar'
 import DetailHeader from '../../components/DetailHeader/DetailHeader';
 import Caption from '../../components/Caption/Caption';
-import BackButton from '../../components/BackButton/BackButton';
 import { StickyContainer, Sticky } from 'react-sticky';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Bootstrap, Grid, Row, Col, Image } from 'react-bootstrap';
@@ -44,7 +43,7 @@ class Instagram extends Component {
                text=<p>Interning at Instagram for two summers taught me valuable skills about how to work in
                an industry setting, from functioning in a team to quickly adjusting to and working with an
                expansive code base in a huge, established company. I experienced the Silicon Valley tech
-               campus as well as the smaller, metropolitan satellite NYC office.</p>/>
+               campus as well as the smaller, metropolitan satellite office in Manhattan.</p>/>
            </Col>
            <Col xs={6} style={styles.col}>
             <img className="detail-image-right" src={IGLogo}/>
@@ -53,7 +52,7 @@ class Instagram extends Component {
 
          <Row className="detail-row">
           <Col xs={6} style={styles.col}>
-            <img className="detail-image-left" src={IGProfile}/>
+            <img className="detail-image-left" src={IGExplore}/>
           </Col>
           <Col xs={6} style={styles.col}>
             <Caption side="caption-right" header="Video Infra"
@@ -76,7 +75,7 @@ class Instagram extends Component {
            </Col>
 
            <Col xs={6} style={styles.col}>
-            <img className="detail-image-right" src={IGExplore}/>
+            <img className="detail-image-right" src={IGProfile}/>
            </Col>
          </Row>
        </Grid>

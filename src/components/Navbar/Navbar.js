@@ -18,7 +18,7 @@ class NavBar extends Component {
             <Link to="/dev" className="Navbar-item"><p>tech</p></Link>
             <Link to="/design" className="Navbar-item"><p>design</p></Link>
             <Link to="/sketches" className="Navbar-item"><p>sketches</p></Link>
-            <Link to="/contact" className="Navbar-item"><p>contact</p></Link>
+            <Link to="/about" className="Navbar-item"><p>about</p></Link>
             <a className="Navbar-item" href={resume}>resume</a>
           </Nav>
         </div>

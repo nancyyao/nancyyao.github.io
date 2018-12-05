@@ -11,13 +11,13 @@
 }
 
 .bh-app-col-2 {
-  padding-top: 32px;
-}
-
-.bh-app-col-3 {
   padding-top: 64px;
 }
 
+.bh-app-col-3 {
+  padding-top: 128px;
+}
+
 .bh-app-col-4 {
-  padding-top: 96px;
+  padding-top: 128px;
 }
