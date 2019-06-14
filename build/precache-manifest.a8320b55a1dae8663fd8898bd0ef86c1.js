@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "1038895c48995ea5075fbf80ac6ad0c4",
-    "url": "/static/media/app1.1038895c.png"
+    "revision": "9c8d983e4a77794f49178694b64d0077",
+    "url": "/static/media/app3.9c8d983e.png"
   },
   {
-    "revision": "4d63721c38342b00fe38",
-    "url": "/static/css/main.5b228d7a.chunk.css"
+    "revision": "51ead3d2113b385822eb",
+    "url": "/static/css/main.e9072fd7.chunk.css"
   },
   {
     "revision": "407796ad8fd0869c039421024da3cbb2",
     "url": "/static/media/artist_detail2.407796ad.png"
   },
   {
-    "revision": "9b6df31aa46400716a28",
-    "url": "/static/js/1.9b6df31a.chunk.js"
+    "revision": "008cb2ab79ac9be984fb",
+    "url": "/static/js/1.008cb2ab.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/Foldable2.c130e8ee.png"
   },
   {
-    "revision": "56a5cb74a2dcd959f10851e7cee3f375",
-    "url": "/static/media/resume.56a5cb74.pdf"
+    "revision": "42415fbc153f9d4c056c706e84bfa2c8",
+    "url": "/static/media/resume_cs_2019.42415fbc.pdf"
   },
   {
     "revision": "1e2337d3e413b78c7937edd1c720d0ae",
@@ -216,16 +216,16 @@ self.__precacheManifest = [
     "url": "/static/media/bh_opportunity.3001369d.jpeg"
   },
   {
-    "revision": "4d63721c38342b00fe38",
-    "url": "/static/js/main.4d63721c.chunk.js"
+    "revision": "1038895c48995ea5075fbf80ac6ad0c4",
+    "url": "/static/media/app1.1038895c.png"
   },
   {
     "revision": "b749295611d925e7b9f636c0757b5161",
     "url": "/static/media/app2.b7492956.png"
   },
   {
-    "revision": "9c8d983e4a77794f49178694b64d0077",
-    "url": "/static/media/app3.9c8d983e.png"
+    "revision": "51ead3d2113b385822eb",
+    "url": "/static/js/main.51ead3d2.chunk.js"
   },
   {
     "revision": "07c4ffbcdfd77b11a65088426e8c2c53",
@@ -412,6 +412,22 @@ self.__precacheManifest = [
     "url": "/static/media/resources.56eed858.PNG"
   },
   {
+    "revision": "53a54b888e589e471dd47813dfa45e8a",
+    "url": "/static/media/artist1.53a54b88.png"
+  },
+  {
+    "revision": "c1fe3b55e05fb77fcc9234651a323074",
+    "url": "/static/media/announcements.c1fe3b55.png"
+  },
+  {
+    "revision": "728eb5333fb70671107325a0c5f5785a",
+    "url": "/static/media/resources.728eb533.png"
+  },
+  {
+    "revision": "3a3c8528eacc44d505e7d0ce7e2ce6d9",
+    "url": "/static/media/mainstage.3a3c8528.png"
+  },
+  {
     "revision": "a04fc1525220134694fc95f87fb8cd02",
     "url": "/static/media/Furniture4.a04fc152.png"
   },
@@ -424,11 +440,11 @@ self.__precacheManifest = [
     "url": "/static/media/flexibrella_team.727e3b41.JPG"
   },
   {
-    "revision": "9b6df31aa46400716a28",
-    "url": "/static/css/1.3cfa2043.chunk.css"
+    "revision": "008cb2ab79ac9be984fb",
+    "url": "/static/css/1.649ef3ea.chunk.css"
   },
   {
-    "revision": "d2e4f8b228f2dc66e363ec0b96dd7bdb",
+    "revision": "802ee72eb71fee6b259ae6913f2b248e",
     "url": "/index.html"
   }
 ];
