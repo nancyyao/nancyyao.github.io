@@ -35,7 +35,7 @@ class MakerGirl extends Component {
           <Grid fluid styles={styles.grid}>
             <Row className="detail-row">
               <DetailHeader name="MakerGirl" role="Co-Founder and Co-Director, Northwestern Academy"
-               date="Jan 2018 - Present" skills="Leadership, Marketing/comms, Event planning, Team management, 3D printing"
+               date="Jan 2018 - Dec 2018" skills="Leadership, Marketing/comms, Event planning, Team management, 3D printing"
                tagline="Starting a chapter of a non-profit that has educated over 3,000 girls in STEM through
                3D printing and other technologies."/>
             </Row>

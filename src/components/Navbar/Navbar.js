@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import resume from "../../files/resume.pdf";
+import resume from "../../files/resume_cs_2019.pdf";
 
 import './Navbar.css';
 

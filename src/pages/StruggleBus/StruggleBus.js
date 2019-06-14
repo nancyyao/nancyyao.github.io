@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Bootstrap, Grid, Row, Col, Image } from 'react-bootstrap';
 
 import SBHero from './images/sb_mockup.png';
-import SBHome from './images/sb_home.PNG';
+import SBHome from './images/sb_home.png';
 import SBClass from './images/sb_class.PNG';
 
 import './StruggleBus.css';
