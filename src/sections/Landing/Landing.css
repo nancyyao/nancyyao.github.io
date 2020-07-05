@@ -5,69 +5,35 @@
 	Dark gray: #686868
 	Mauve: #c3878c
   Background dark: #282c34
+  Blue: #00A3C2
+  Yellow: #F6BC20
 */
 
 .Landing {
   background-color: white;
-  color: #87c3b9;
+  color: #686868;
   justify-content: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 40px 40px 40px 40px;
 }
 
-.Landing-tagline {
-  font-size: calc(28px + 2vmin);
+.top-header {
+  float: left;
+  padding-bottom: 12px;
+  text-align: left;
+  color: #87c3b9;
+}
+.landing-description {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.nav-icon-container {
-  height: 15vmin;
-  margin: 2vmin;
-  position: relative;
-  display: inline-block;
+.landing-header {
+  padding-bottom: 12px;
 }
 
-.nav-icon {
-  /* animation: App-logo-spin infinite 20s linear; */
-  height: 100%;
-  border: 1px solid #87c3b9;
-}
-
-.nav-icon-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  opacity: 0;
-  background-color: #c3878c;
-  border: 1px solid #87c3b9;
-  border-radius: 50%;
-}
-.nav-icon-text {
-  color: white;
-  font-size: calc(5px + 2vmin);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-.nav-icon-container:hover .nav-icon-overlay {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.Landing-link {
-  color: #3e7c72 !important;
-  font-weight: normal;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social {
+  margin: 16px;
 }

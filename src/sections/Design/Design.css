@@ -5,50 +5,71 @@
 	Dark gray: #686868
 	Mauve: #c3878c
   Background dark: #282c34
+  Blue: #00A3C2
+  Yellow: #F6BC20
 */
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.portfolio-carousel {
+  height: 100%;
+}
+.portfolio-carousel-item {
+  width: 75%;
+  overflow: hidden;
+  align-items: center;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+{
+  filter: invert(100%);
+}
+
+/* .carousel-indicators li {
+  opacity: 0;
+} */
 
 .Design {
   background-color: #eeeeee;
-  color: #87c3b9;
-  padding-bottom: 36px;
-}
-
-.Design-body {
+  color: #686868;
+  padding: 24px 10px 10px 10px;
   align-items: center;
   text-align: center;
 }
 
-.Design-polaroid {
-  width: 40vmin;
-  /* margin: 2vw; */
+/* .react-pdf__Page {
+  display: inline-block;
+  position: relative;
 }
 
-.design-overlay-container {
-  /* height: 15vmin; */
-  margin: 2vw;
-  position: relative;
+.react-pdf__Page__textContent {display: none;}
+
+.page-switcher {
+  display: inline;
+}
+
+.page-number{
+  color: #3e7c72;
+}
+
+.page-switcher-section {
+  padding-bottom: 16px;
+}
+
+button {
+  margin-left: 12px;
+  margin-right: 12px;
+  border: none;
+  color: #3e7c72;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
-}
-.design-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 4% 4% 20% 4%;
-  opacity: 0;
-  background-color: #c3878c;
-}
-.design-overlay-container:hover .design-overlay {
-  opacity: 0.8;
   cursor: pointer;
-}
-.design-overlay-text {
-  color: white;
-  font-size: calc(12px + 2vmin);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
+} */

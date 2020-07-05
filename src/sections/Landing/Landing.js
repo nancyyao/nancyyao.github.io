@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Image } from 'react-bootstrap';
-
-import dev from './images/dev1.png';
-import design from './images/design1.png';
-import sketch from './images/sketch1.png';
-import contact from '../../files/profile.png';
+import Image from 'react-bootstrap/Image';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import mail from '../../files/social/logo_gmail_32px.png';
+import linkedin from '../../files/social/In-2C-34px-TM.png';
+import profile from '../../files/grad.png';
 
 import './Landing.css';
 
@@ -12,50 +13,41 @@ class Landing extends Component {
   render() {
     return (
       <div id={this.props.id} className="Landing main-section">
-        <p className="Landing-tagline">hi, i'm nancy. i'm a
-          <a className="Landing-link" onClick={function()
-           { document.getElementById("developer-id").scrollIntoView(); } }> developer</a> and
-          <a className="Landing-link" onClick={function()
-            { document.getElementById("design-id").scrollIntoView(); } }> designer</a> striving to build beautiful, functional digital products.</p>
+        <Container>
+          <Row>
+            <Col xs={12} md={5}>
+              <Image src={profile} alt="profile" rounded fluid />
+            </Col>
 
-        <div className="nav-icons">
-          <div className="nav-icon-container" onClick={function()
-            { document.getElementById("developer-id").scrollIntoView(); } }>
-            <Image className="nav-icon" src={dev} circle />
-            <div class="nav-icon-overlay">
-              <p class="nav-icon-text">tech projects</p>
-            </div>
-          </div>
-          <div className="nav-icon-container" onClick={function()
-            { document.getElementById("design-id").scrollIntoView(); } }>
-            <Image className="nav-icon" src={design} circle />
-            <div class="nav-icon-overlay">
-              <p class="nav-icon-text">design projects</p>
-            </div>
-          </div>
-          <div className="nav-icon-container" onClick={function()
-            { document.getElementById("sketches-id").scrollIntoView(); } }>
-            <Image className="nav-icon" src={sketch} circle />
-            <div class="nav-icon-overlay">
-              <p class="nav-icon-text">sketches</p>
-            </div>
-          </div>
-          <div className="nav-icon-container" onClick={function()
-            { document.getElementById("contact-id").scrollIntoView(); } }>
-            <Image className="nav-icon" src={contact} circle />
-            <div class="nav-icon-overlay">
-              <p class="nav-icon-text">about me</p>
-            </div>
-          </div>
-        </div>
+            <Col xs={12} md={7} className="landing-description">
+              <h1 className="landing-header">Hi, I'm Nancy.</h1>
+              <p>My name is Nancy Yao. I like to work at the intersection of tech and product design
+              and development, and am always looking for opportunities to bring ideas to life.</p>
+
+              <p>I graduated from Northwestern University in Dec 2018 with a
+              Bachelor's in Computer Science and certificate in Design.
+              Since then, I've been exploring the tech product space as a mobile engineer
+              on Live Videos at Facebook.
+              </p>
+
+               <p>I'm always excited to connect with new people.
+              Reach out if you'd like to talk!</p>
+              <div className="social-section">
+                <a href="mailto:nancy.yao2@gmail.com">
+                  <img className="social" alt="Email" src={mail}/>
+                </a>
+                <a className="social" href="https://www.linkedin.com/in/nancyyao2019/">
+                  <img src={linkedin} alt="LinkedIn"/>
+                </a>
+              </div>
+            </Col>
+
+          </Row>
+        </Container>
       </div>
+
     );
   }
 }
 
 export default Landing;
-
-
-// <a onClick={function()
-//   { document.getElementById("contact-id").scrollIntoView(); }
-// }><Image className="nav-icon" src={contact} circle /></a>

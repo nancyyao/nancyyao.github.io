@@ -5,68 +5,23 @@
 	Dark gray: #686868
 	Mauve: #c3878c
   Background dark: #282c34
+  Blue: #00A3C2
+  Yellow: #F6BC20
 */
 
 .Developer {
   background-color: #87c3b9;
   color: white;
-  padding-bottom: 36px;
-}
-
-.Dev-body {
+  display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  padding: 10px 40px 10px 40px;
 }
 
-.Dev-mockup-phone {
-  /* height: 70vmin; */
-  height: 70vmin;
-  /* margin: 2vw; */
-}
-
-.Dev-mockup-desktop {
-  /* width: 40vw; */
-  height: 50vmin;
-  /* margin: 2vw; */
-}
-
-.dev-overlay-container {
-  /* height: 15vmin; */
-  margin: 2vw;
-  position: relative;
-  display: inline-block;
-}
-.dev-overlay-phone {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 25% 6% 23% 6%;
-  opacity: 0;
-  background-color: #c3878c;
-}
-.dev-overlay-desktop {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 5% 3% 15% 3%;
-  opacity: 0;
-  background-color: #c3878c;
-}
-.dev-overlay-container:hover .dev-overlay-phone,
-.dev-overlay-container:hover .dev-overlay-desktop {
-  opacity: 0.8;
-  cursor: pointer;
-}
-.dev-overlay-text {
-  color: white;
-  font-size: calc(12px + 2vmin);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.developer-description {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

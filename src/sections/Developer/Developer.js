@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
+import Image from 'react-bootstrap/Image';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-import instagram from './images/dev-insta.png';
-import insync from './images/dev-insync.png';
-import strugglebus from './images/dev-strugglebus.png';
-import buildher from './images/dev-buildher.png';
-import collablab from './images/dev-collablab.png';
-
+import profile from '../../files/disruptthedistrict.JPG';
 
 import './Developer.css';
 
@@ -14,54 +12,27 @@ class Developer extends Component {
   render() {
     return (
       <div id={this.props.id} className="Developer main-section">
-        <header className="section-header">
-          <p>i'm a developer...</p>
-        </header>
-        <div className="Dev-body">
-          <Link to="/dev-instagram">
-            <div class="dev-overlay-container">
-              <img src={instagram} className="Dev-mockup-phone" alt="instagram" />
-              <div class="dev-overlay-phone">
-                <p class="dev-overlay-text">Instagram</p>
-              </div>
-            </div>
-          </Link>
-          <Link to="/dev-insync">
-            <div class="dev-overlay-container">
-              <img src={insync} className="Dev-mockup-phone" alt="insync" />
-              <div class="dev-overlay-phone">
-                <p class="dev-overlay-text">InSync</p>
-              </div>
-            </div>
-          </Link>
-          <Link to="/dev-strugglebus">
-            <div class="dev-overlay-container">
-              <img src={strugglebus} className="Dev-mockup-phone" alt="strugglebus" />
-              <div class="dev-overlay-phone">
-                <p class="dev-overlay-text">StruggleBus</p>
-              </div>
-            </div>
-          </Link>
-        </div>
+        <Container>
+          <Row>
+            <Col xs={12} md={6} className="developer-description">
+              <p>While deep diving into the Facebook Live product stack,
+              I've become deeply familiar with every stage of the product development cycle.</p>
 
-        <div className="Dev-body">
-          <Link to="/dev-buildher">
-            <div class="dev-overlay-container">
-              <img src={buildher} className="Dev-mockup-desktop" alt="buildher" />
-              <div class="dev-overlay-desktop">
-                <p class="dev-overlay-text">BuildHer</p>
-              </div>
-            </div>
-          </Link>
-          <Link to="/dev-collablab">
-            <div class="dev-overlay-container">
-              <img src={collablab} className="Dev-mockup-desktop" alt="collablab" />
-              <div class="dev-overlay-desktop">
-                <p class="dev-overlay-text">CollabLab</p>
-              </div>
-            </div>
-          </Link>
-        </div>
+              <p>Shipping features to millions of users around the world has
+              strengthened my passion for creating products for the people who need them.
+              I hope to continue finding ways to address human problems through innovation
+              and ideation of products that are prioritized, above all, by the impact they
+              can have on real lives.</p>
+
+              <p>Check out my <a> resume </a>
+              for some more structured info about me, or my design portfolio below!</p>
+            </Col>
+
+            <Col xs={12} md={6}>
+              <Image src={profile} alt="profile" rounded fluid/>
+            </Col>
+          </Row>
+        </Container>
       </div>
     );
   }
