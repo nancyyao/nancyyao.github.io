@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efde667564073324fea4e4b50daa37f2",
+    "revision": "8fb67a1e7b8a34ea481d341b6bb238cb",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "1146816e81d4de6056d0",
+    "revision": "d50fd4eb12c61d9c875a",
     "url": "/static/css/main.32e9b1f4.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.bfccbc99.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1146816e81d4de6056d0",
-    "url": "/static/js/main.a618dd5f.chunk.js"
+    "revision": "d50fd4eb12c61d9c875a",
+    "url": "/static/js/main.dcdc3af9.chunk.js"
   },
   {
     "revision": "751cf8091b1896b498b6",
     "url": "/static/js/runtime-main.ad074a84.js"
   },
   {
-    "revision": "aeab942728b51e41d94c3b98aacd5a96",
-    "url": "/static/media/Nancy_Yao_resume.aeab9427.pdf"
+    "revision": "0954ffa081012e91286dc93f07835a48",
+    "url": "/static/media/Nancy_Yao_resume.0954ffa0.pdf"
   },
   {
     "revision": "4cd4dac0d2e390ad06f45eb13d3781d5",
